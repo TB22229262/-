@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>封面 · 如何学习</title>
+  <meta name="theme-color" content="#080000">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <div class="ribbon"><span>01001100 01000101 01000001 01010010 01001110  LEARN LEARN LEARN  01000110 01000101 01000101 01000100 01000010 01000001 01000011 01001011  </span></div>
+    <nav class="nav">
+      <strong>COVER_FRAME</strong>
+      <div class="nav-links"><a href="index.html">Index</a><a href="page-01-myth.html">Next</a></div>
+    </nav>
+    <section class="hero split">
+      <div>
+        <div class="kicker">#0000 / HOOK</div>
+        <h1 class="title">你不是学不会，<br><span class="red">而是你的反馈太慢。</span></h1>
+        <p class="subcopy">给知识博主粉丝的一句话封面：把学习焦虑从“我不够自律”改写成“我的系统没有及时暴露错误”。</p>
+      </div>
+      <aside class="console signal-console" id="cover-engine" data-signal-console>
+        <div class="console-head"><span>LEARNING_ENGINE</span><span class="live" data-signal-live>ARMED</span></div>
+        <div class="console-body">
+          <div class="signal-stage" aria-label="学习反馈动态展示">
+            <div class="signal-readout">
+              <span>INPUT_STREAM</span>
+              <b data-signal-readout>等待启动</b>
+            </div>
+            <div class="signal-core" aria-hidden="true">
+              <div class="signal-orbit orbit-a"></div>
+              <div class="signal-orbit orbit-b"></div>
+              <div class="signal-pulse"></div>
+              <div class="signal-center">
+                <span data-signal-index>00</span>
+                <b data-signal-state>IDLE</b>
+              </div>
+              <div class="signal-scan"></div>
+            </div>
+            <div class="signal-bars">
+              <span style="--h: 36%"></span>
+              <span style="--h: 68%"></span>
+              <span style="--h: 48%"></span>
+              <span style="--h: 84%"></span>
+              <span style="--h: 55%"></span>
+              <span style="--h: 76%"></span>
+              <span style="--h: 42%"></span>
+            </div>
+            <div class="signal-copy">
+              <span data-signal-line>看课、收藏、划重点，只是把信息接入系统。</span>
+            </div>
+          </div>
+          <div class="signal-controls" data-signal-controls>
+            <button class="signal-node is-active" data-signal-step="0" data-state="INPUT" data-line="看课、收藏、划重点，只是把信息接入系统。" data-readout="materials connected">01 INPUT</button>
+            <button class="signal-node" data-signal-step="1" data-state="ERROR" data-line="真正卡住的地方，是错误没有当天暴露。" data-readout="hidden errors found">02 ERROR</button>
+            <button class="signal-node" data-signal-step="2" data-state="OUTPUT" data-line="复述、做题、交付，才会把理解压成证据。" data-readout="deliverable required">03 OUTPUT</button>
+            <button class="signal-node" data-signal-step="3" data-state="FEEDBACK" data-line="学习速度，取决于反馈半径有多短。" data-readout="feedback loop online">04 FEEDBACK</button>
+          </div>
+          <div class="interaction-panel signal-check" id="cover-status">
+            <h3>ENGINE CHECK</h3>
+            <div class="status-grid">
+              <div class="status-cell"><b>01 INPUT</b><span data-signal-cell="0">材料已接入</span></div>
+              <div class="status-cell"><b>02 OUTPUT</b><span data-signal-cell="1">等待产物</span></div>
+              <div class="status-cell"><b>03 FEEDBACK</b><span data-signal-cell="2">点击启动</span></div>
+            </div>
+          </div>
+          <div class="action-row">
+            <button class="button" data-signal-launch="#cover-engine" data-active-label="ENGINE ONLINE">启动动态展示</button>
+            <button class="button secondary" data-signal-random="#cover-engine">切换信号</button>
+          </div>
+        </div>
+        <div class="console-foot"><span>scroll or next</span><span>01 / 05</span></div>
+      </aside>
+    </section>
+  </main>
+  <script src="behavior.js"></script>
+</body>
+</html>
